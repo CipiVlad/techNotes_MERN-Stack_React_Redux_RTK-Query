@@ -1,0 +1,41 @@
+{
+  "name": "technotes",
+  "version": "0.0.1",
+  "description": "Dave Gray Codealong MERN Project // https://www.youtube.com/watch?v=H-9l-gTq-C4&list=PL0Zuz27SZ-6P4dQUsoDatjEGpmBpcOW8V",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitdagray/mern_stack_course.git#main"
+  },
+  "keywords": [
+    "MERN",
+    "CRUD",
+    "Redux-TOOLKIT"
+  ],
+  "author": "{davegray, ...cipi}",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitdagray/mern_stack_course/issues"
+  },
+  "homepage": "https://github.com/gitdagray/mern_stack_course/tree/main#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^6.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^3.1.2",
+    "mongoose": "^6.8.0",
+    "mongoose-sequence": "^5.3.1",
+    "react-spinners": "^0.13.7",
+    "uuid": "^9.0.0"
+  }
+}
